@@ -1,0 +1,26 @@
+.body_container p{
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(69, 69, 69);
+}
+.body_container button{
+    translate: -50%;
+    margin-left: 50%;
+    height: 40px;
+    width: 180px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #e21737;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.body_container button:hover{
+    scale: 0.97;
+}
+.body_container button:active{
+    background-color: #0b648f;
+}
